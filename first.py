@@ -22,7 +22,44 @@
 
 # Write a program to prompt a user to enter 3 numbers and print the greatest number of
 # these 3 numbers
-x = int(input())
-y = int(input())
-z = int(input())
-print(max(x,max(y,z)))
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# print(max(x,max(y,z)))
+
+# Write a program to prompt a user to enter a number and print the binary
+# representation of this number (each digit in a separate line)
+
+# n = int(input("enter your number "))
+# result = 0 
+# mul = 1 
+# while(n>0):
+#     result = result + ((n%2) * mul)
+#     mul = mul * 10
+#     n = n/2
+# print(result)
+
+# n = int(input("enter number "))
+# result = 0
+# mul = 1
+
+# while n > 0 :
+#     x = n%2
+#     y = x*mul
+#     result = result + y
+#     mul = mul * 10
+#     n = n/2
+# print(result)
+
+# Write a program to prompt a user to enter 2 numbers and print the GCD (greatest
+# common divisor) of these 2 number (using the subtraction Euclidean method)
+
+x = int(input("enter first number "))
+y = int(input("enter second numebr "))
+
+m = min(x,y)
+while m >= 1:
+    if x%m==0 and y%m==0:
+        break
+    m = m -1
+print(m)
