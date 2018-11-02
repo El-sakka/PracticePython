@@ -13,11 +13,11 @@ def fact(n):
         x = i * x
     return x
 
-def volmn(s):
-    for i in range(0,len(s)):
-        if(s[i] == "a" | s[i] == "e" | s[i] == "u" | s[i] == "o" | s[i] == "i"):
-            print(s[i])
-    return
+# def volmn(s):
+#     for i in range(0,len(s)):
+#         if(s[i] == "a" | s[i] == "e" | s[i] == "u" | s[i] == "o" | s[i] == "i"):
+#             print(s[i])
+#     return
 def vowel(word):
     for i in word:
         if i in ("a","e","i","o","u"):
